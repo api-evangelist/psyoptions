@@ -1,0 +1,65 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/org/mithraic-labs
+note: >-
+  PsyOptions (by Mithraic Labs) is a Solana on-chain options protocol. It ships
+  no REST API; integration is via these first-party client libraries + on-chain
+  Anchor/BPF programs. The project has since been sunset (see lifecycle/).
+packages:
+  - language: javascript
+    registry: npm
+    name: "@mithraic-labs/psy-american"
+    version: 0.2.3
+    license: MIT
+    description: PsyOptions American style options protocol (anchor) TypeScript SDK.
+    url: https://www.npmjs.com/package/@mithraic-labs/psy-american
+    repository: https://github.com/mithraiclabs/psyoptions-ts
+    install: npm install @mithraic-labs/psy-american
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@mithraic-labs/psyoptions"
+    version: 0.7.2
+    license: ISC
+    description: Solana program instruction bindings for mithraiclabs' PsyOptions (v1 / Serum).
+    url: https://www.npmjs.com/package/@mithraic-labs/psyoptions
+    repository: https://github.com/mithraiclabs/psyoptions
+    install: npm install @mithraic-labs/psyoptions
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@mithraic-labs/market-meta"
+    version: 0.7.3
+    description: Asset and market data relevant to PsyOptions clients.
+    url: https://www.npmjs.com/package/@mithraic-labs/market-meta
+    repository: https://github.com/mithraiclabs/psyoptions-ts
+    install: npm install @mithraic-labs/market-meta
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@mithraic-labs/psy-token-registry"
+    version: 0.0.25
+    description: Metadata for the SPL tokens with PsyOptions options.
+    url: https://www.npmjs.com/package/@mithraic-labs/psy-token-registry
+    repository: https://github.com/mithraiclabs/psyoptions-ts
+    install: npm install @mithraic-labs/psy-token-registry
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@mithraic-labs/psy-metrics"
+    version: 0.0.6
+    description: Utility functions for calculating TVL or other metrics from the Psy ecosystem.
+    url: https://www.npmjs.com/package/@mithraic-labs/psy-metrics
+    repository: https://github.com/mithraiclabs/psyoptions-ts
+    install: npm install @mithraic-labs/psy-metrics
+    official: true
+  - language: rust
+    registry: crates.io
+    name: options
+    description: >-
+      Rust crate for the PsyOptions on-chain program (published via
+      `cargo publish --features 'no-entrypoint'` from the `options/` program dir).
+    url: https://github.com/mithraiclabs/psyoptions
+    repository: https://github.com/mithraiclabs/psyoptions
+    install: cargo add options
+    official: true

@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.psyoptions.io/
+status: sunset
+summary: >-
+  The PsyOptions protocol and its Mithraic Labs product surface have been shut
+  down. The documentation host (docs.psyoptions.io, served from
+  mithraiclabs.github.io) now returns a sunset notice, and the primary marketing
+  domain (psyoptions.io / www.psyoptions.io) no longer resolves (no DNS A
+  record). The open-source repositories under the mithraiclabs GitHub
+  organization and the published npm packages remain available for reference.
+lifecycle_stage: retired
+evidence:
+  - source: https://docs.psyoptions.io/
+    detail: >-
+      Sunset page text: "This site has been shut down. Please contact us if you
+      have any questions or need further information." (contact@psyoptions.io)
+  - source: dns
+    detail: psyoptions.io and www.psyoptions.io return no A record (domain not resolving).
+  - source: https://github.com/mithraiclabs/mithraiclabs.github.io
+    detail: Repository description is "sunset page".
+on_chain:
+  program_id_devnet: R2y9ip6mxmWUj4pt54jP2hz2dgvMozy9VTSwMWE7evs
+  chain: solana
+  note: On-chain programs may persist independent of the retired off-chain product.
+status_page: null
+deprecation:
+  policy_url: null
+  note: No formal deprecation/sunset policy document was published; the protocol was retired wholesale.
