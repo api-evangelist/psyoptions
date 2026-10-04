@@ -35,6 +35,7 @@ description: >-
   sites are shut down, though the GitHub repositories and published packages
   remain available for reference. It was surfaced as a portfolio company of
   Pantera Capital. Sector: crypto / DeFi.
+x-status: defunct
 url: https://raw.githubusercontent.com/api-evangelist/psyoptions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -54,6 +55,7 @@ tags:
 - Derivatives
 - Blockchain
 - Web3
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
