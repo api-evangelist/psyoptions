@@ -1,0 +1,76 @@
+edges:
+- partner_name: npm registry
+  partner: npm
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (JavaScript/TypeScript)
+  evidence: https://www.npmjs.com/package/@mithraic-labs/market-meta
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: npm registry (public registry JSON)
+    spec_file: null
+    language: JavaScript/TypeScript
+    packages:
+    - name: '@mithraic-labs/market-meta'
+      version: 0.7.3
+      released: '2022-05-31'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/@mithraic-labs/market-meta
+      repo_leg: github-org:mithraiclabs
+      publisher_leg: org:mithraic-labs
+      matched_by: github-org
+    - name: '@mithraic-labs/psy-american'
+      version: 0.2.3
+      released: '2022-12-21'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/@mithraic-labs/psy-american
+      repo_leg: github-org:mithraiclabs
+      publisher_leg: org:mithraic-labs
+      matched_by: github-org
+    - name: '@mithraic-labs/psy-metrics'
+      version: 0.0.6
+      released: '2023-10-19'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/@mithraic-labs/psy-metrics
+      repo_leg: github-org:mithraiclabs
+      publisher_leg: org:mithraic-labs
+      matched_by: github-org
+    - name: '@mithraic-labs/psy-token-registry'
+      version: 0.0.25
+      released: '2024-03-22'
+      released_field: modified
+      lapsed: true
+      page: https://www.npmjs.com/package/@mithraic-labs/psy-token-registry
+      repo_leg: github-org:mithraiclabs
+      publisher_leg: org:mithraic-labs
+      matched_by: github-org
+    current: false
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
+generated: '2026-10-18'
+method: searched
+source:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
+checked:
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
+- https://proxy.golang.org
+- https://pypi.org/pypi
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
